@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="grey"> #ebebeb</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="red"> #FF0000</color>
+    <color name="darkyellow"> #FFCC33</color>
+    <color name="color_104E8B"> #104E8B</color>
+    <color name="color_ff8000"> #ff8000</color>
+    <color name="color_ffffff"> #ffffff</color>
+    <color name="color_0363a0"> #0363a0</color>
+    <color name="color_b1b1b1"> #b1b1b1</color>
+    <color name="color_555555"> #555555</color>
+    <color name="trans_white">#eeffffff</color>
+    <color name="trans_gray_white">#eef9f9f9</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="color_475562">#475562</color>
+    <color name="blue">#ff75a6ff</color>
+    <color name="color_d3d6db"> #d3d6db</color>
+    <color name="color_d2d5da"> #d2d5da</color>
+    <color name="color_fafafa"> #fafafa</color>
+    <color name="color_29c643"> #29c643</color>
+    <color name="color_27c53f">#27c53f</color>
+    <color name="card_line">#dad9d9</color>
+    <color name="gray">#666666</color>
+    <color name="color_cccccc">#cccccc</color>
+
+    <!-- add 0417 -->
+    <color name="GreyWhite_has_alpha">#66FAFAFA</color>
+    <color name="color_gray_eaeaea">#eaeaea</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="color_purple_bd6aff">#bd6aff</color>
+    <color name="action_bar_tittle_color_555555">#555555</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_f3f7f8">#f3f7f8</color>
+    <!-- add 0608 -->
+    <color name="color_25374B">#25374B</color>
+    <color name="color_9d9d9d">#9d9d9d</color>
+    <color name="color_0064a4">#0064a4</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_b3b7c1">#b3b7c1</color>
+    <color name="color_4b4b4b">#4b4b4b</color>
+    <color name="color_00a2ed">#00a2ed</color>
+    <color name="color_ff9800">#ff9800</color>
+    <color name="color_bowen_text">#333333</color>
+</resources>

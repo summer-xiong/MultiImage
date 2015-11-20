@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kboke.tools.imageSelector.BucketFragment">
+    <RelativeLayout
+        android:id="@+id/rl_include_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/color_0064a4" >
+
+        <Button
+            android:id="@+id/btn_header_left"
+            style="@style/btn_title_style02"
+            android:layout_width="75dp"
+            android:layout_height="@dimen/top_bar_height"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_header_right"
+            style="@style/btn_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/width_13.3dp"
+            android:textSize="@dimen/text_size_16.5"
+            android:text="取消"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp" >
+
+            <TextView
+                android:id="@+id/tv_header_title"
+                style="@style/title_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="相册" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_bucket"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_include_head"
+        android:layout_centerInParent="true"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        />
+</RelativeLayout>
